@@ -99,7 +99,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         </div>
         {children}
       </main>
-      <Footer />
+
+      {/* ===========================================  */}
+      {/* <Footer /> */}
     </div>
   );
 }
