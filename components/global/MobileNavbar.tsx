@@ -40,12 +40,12 @@ export default function MobileNavbar() {
           <Link href="/">
             <img
               className="mr-3"
-              src="/static/logos/logo_full.svg"
-              width="160"
+              src="/static/logos/samyak_khatua_dp.png"
+              width="60"
             />
           </Link>
         </li>
-        <button
+        {/* <button
           className="burger visible md:hidden"
           aria-label="Toggle menu"
           type="button"
@@ -53,7 +53,7 @@ export default function MobileNavbar() {
         >
           <MenuIcon data-hide={isMenuOpen} />
           <CrossIcon data-hide={!isMenuOpen} />
-        </button>
+        </button> */}
       </div>
       {isMenuMounted && (
         <ul

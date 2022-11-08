@@ -17,7 +17,9 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
       style={{ maxWidth: "1200px" }}
     >
       <Head>
-        <title>{pageTitle}</title>
+        {/* <title>{pageTitle}</title> */}
+        {/* <title>Samyak Khatua - ReactJS Developer</title> */}
+        <title>Samyak Khatua - ReactJS Developer</title>
 
         <link
           rel="apple-touch-icon"
